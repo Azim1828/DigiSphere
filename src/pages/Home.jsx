@@ -2,7 +2,7 @@ import React from 'react'
 import HeroSection from '../components/home/HeroSection'
 import AboutSection from '../components/home/AboutSection'
 import FeaturesSection from '../components/home/FeaturesSection'
-import Features2Section from '../components/home/Features2Section'
+// import Features2Section from '../components/home/Features2Section'
 import ServicesSection from '../components/home/ServicesSection'
 import TestimonialsSection from '../components/home/TestimonialsSection'
 import StatsSection from '../components/home/StatsSection'
@@ -18,7 +18,7 @@ const Home = () => {
       <HeroSection />
       <AboutSection />
       <FeaturesSection />
-      <Features2Section />
+      {/* <Features2Section /> */}
       <ServicesSection />
       <MoreAboutSection />
       <TestimonialsSection />
